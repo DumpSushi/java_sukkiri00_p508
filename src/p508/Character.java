@@ -4,7 +4,7 @@ public abstract class Character {
 	private String name;
 	private int hp;
 
-	public abstract void attack(Matango m);
+	public abstract void attack(Monster m);
 	public void run(){}
 
 	public String getName() {

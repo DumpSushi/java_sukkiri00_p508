@@ -4,9 +4,8 @@ public class Wizard extends Character {
 	private int mp;
 
 	@Override
-	public void attack(Matango m)
+	public void attack(Monster m)
 	{
-		// TODO 自動生成されたメソッド・スタブ
 		System.out.println(this.getName() + "の攻撃");
 		System.out.println("敵に3ポイントのダメージ");
 		m.setHp(m.getHp()-3);
